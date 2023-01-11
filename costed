@@ -1,0 +1,9 @@
+if game.PlaceId == 6407649031 then -- NO SCOPE ARCADE
+    local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/leakediz/NSS-NO-SCOPE-ARCADE/main/dot'))()
+elseif game.PlaceId == 5081773298 then -- NSS
+    local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/leakediz/NSS-NO-SCOPE-ARCADE/main/dot'))()
+elseif game.PlaceId == 6722284015 then -- PISTOL 1V1
+    local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/leakediz/NSS-NO-SCOPE-ARCADE/main/dot'))()
+elseif game.PlaceId == 10118559731 then -- NICO NEXTBOT
+    local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/leakediz/niconext/main/bot'))()
+end
